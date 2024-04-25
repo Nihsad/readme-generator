@@ -36,4 +36,4 @@
   With the exception of this final line and the video link below, the README seen above is the result of using the application itself.
 
   ## Video Walkthrough
-<video src='https://drive.google.com/file/d/1F0bk0iVt8Izeu4emI5AcRSJT7X3VBhbK/view?usp=sharing' width=180/> 
+  [Walkthrough Video](https://drive.google.com/file/d/1F0bk0iVt8Izeu4emI5AcRSJT7X3VBhbK/view?usp=sharing)

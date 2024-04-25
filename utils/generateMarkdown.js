@@ -12,18 +12,18 @@ function renderLicenseBadge(license) {
   return licenseBadges[license] || '';
 }
 
-// TODO: Create a function that returns the license link
+// TODO: Create a function that returns the license badge
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  const licenseLinks = {
-    'MIT': 'https://opensource.org/licenses/MIT',
-    'Apache-2.0': 'https://opensource.org/licenses/Apache-2.0',
-    'GPL-3.0-or-later': 'https://www.gnu.org/licenses/gpl-3.0',
-    'AGPL-3.0-or-later': 'https://www.gnu.org/licenses/agpl-3.0',
-    'Unlicense': 'http://unlicense.org/',
+function renderLicenseBadge(license) {
+  const licenseBadges = {
+    'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    'Apache-2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+    'GPL-3.0-or-later': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
+    'AGPL-3.0-or-later': '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
+    'Unlicense': '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)',
   };
 
-  return licenseLinks[license] || '';
+  return licenseBadges[license] || '';
 }
 
 // TODO: Create a function that returns the license section of README

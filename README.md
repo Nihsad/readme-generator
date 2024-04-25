@@ -22,7 +22,7 @@
   Once [installation](#installation) has been completed, run: ```md  node index.js``` to start the program. Once each prompt has been completed, hitting 'enter' on the keyboard will move on to the next prompt. Repeat until the program has finished, and the user will have a fully formatted README.md file generated in the project folder!
 
   ## License
-  MIT License
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributing
   N/A
